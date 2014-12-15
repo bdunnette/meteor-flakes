@@ -2,7 +2,7 @@ Package.describe({
   name: 'bdunnette:flakes',
   summary: ' /* Fill me in! */ ',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/bdunnette/meteor-flakes.git'
 });
 
 Package.onUse(function(api) {
