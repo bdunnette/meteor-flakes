@@ -1,6 +1,6 @@
 Package.describe({
   name: 'bdunnette:flakes',
-  summary: ' /* Fill me in! */ ',
+  summary: 'Flakes is an Admin Template Framework. A combination of CSS Libraries, JavaScript Libraries and Design files that help you build business tools very quickly.',
   version: '1.0.0',
   git: 'https://github.com/bdunnette/meteor-flakes.git'
 });
