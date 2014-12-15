@@ -5,15 +5,12 @@ Package.describe({
   git: 'https://github.com/bdunnette/meteor-flakes.git'
 });
 
-Package.onUse(function(api) {
+Package.onUse(function (api) {
   api.versionsFrom('1.0.1');
+  api.use('jquery', 'client');
+  api.use('bdunnette:snapjs', 'client');
+  api.use('bdunnette:responsive-elements', 'client');
+  api.use('bdunnette:gridforms', 'client');
   api.addFiles('js/base.js', 'client');
-  api.addFiles('js/utils.js', 'client');
   api.addFiles('css/all.css', 'client');
-});
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('meteor-flakes');
-  api.addFiles('meteor-flakes-tests.js');
 });
