@@ -1,6 +1,22 @@
 {
   "dependencies": [
     [
+      "bdunnette:gridforms",
+      "1.0.0"
+    ],
+    [
+      "bdunnette:responsive-elements",
+      "1.0.0"
+    ],
+    [
+      "bdunnette:snapjs",
+      "1.0.0"
+    ],
+    [
+      "jquery",
+      "1.0.1"
+    ],
+    [
       "meteor",
       "1.1.3"
     ],

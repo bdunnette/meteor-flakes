@@ -8,9 +8,9 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.0.1');
   api.use('jquery', 'client');
-  api.use('bdunnette:snapjs', 'client');
-  api.use('bdunnette:responsive-elements', 'client');
-  api.use('bdunnette:gridforms', 'client');
+  api.use('bdunnette:snapjs@1.0.0', 'client');
+  api.use('bdunnette:responsive-elements@1.0.0', 'client');
+  api.use('bdunnette:gridforms@1.0.0', 'client');
   api.addFiles('js/base.js', 'client');
   api.addFiles('css/all.css', 'client');
 });
